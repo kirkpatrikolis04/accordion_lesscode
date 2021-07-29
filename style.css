@@ -1,0 +1,87 @@
+/* ACCORDION */
+
+.accordions {
+    width: 50%;
+    margin: 5% auto;
+    
+  }
+
+  h1 {
+      text-align: center;
+  }
+  
+  .acc {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  span {
+    font-weight: 700;
+    font-size:18px;
+  }
+  
+  .acc_arr {
+   cursor: pointer;
+   transform: rotate(0deg);
+   padding-bottom:5px;
+   transition: 0.5s;
+  }
+  
+  .txt {
+    width:100%;
+    overflow-y: hidden;
+    border-bottom: 1px dotted;
+    padding-top: 10px;
+    transition: 0.5s;
+  }
+  
+  .acc_arr.active {
+    transform: rotate(-90deg);
+  }
+  
+  .txt.show {
+    height:60px;
+  }
+
+  .txt.hidden {
+    height:0;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
